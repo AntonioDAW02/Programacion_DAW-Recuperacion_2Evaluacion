@@ -102,16 +102,6 @@ public class Ciudadano {
         return cont;
     }
 
-    public void mostrarMulta(String fecha, Salida[] listaSalida, Salida tipo){
-        int multa = 600;
-
-        for (int i = 0; i < listaSalida.length; i++) {
-            if (listaSalida[i].getFecha().equals(fecha) && tipo.getTipoSalida().equals(tipo)){
-
-            }
-        }
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
